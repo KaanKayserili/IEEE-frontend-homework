@@ -1,0 +1,99 @@
+body{
+    background-size: contain;
+}
+
+img{
+    width: 30%;
+    border: solid 2px lightblue;
+    border-radius: 2em;
+    margin-bottom: 1%;
+}
+span{
+    font-size: 12px;
+    
+}
+.input{
+    height: 25px;
+    margin-bottom: 2%;
+    border: solid 2px lightblue;
+    border-radius: 1em;
+    width: 30%;
+    
+}
+
+
+
+
+
+
+
+
+
+form{
+    width: 40%;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+    display: block;
+    background-color: #f6f6f6;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    border: solid 4px lightblue;
+    border-radius: 2em;
+}
+.button{
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    border: solid 2px lightblue;
+    transition-duration: 500ms;
+    border-radius: 1em;
+    margin-top: 2%;
+    height: 50px;
+    width: 12.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.anasayfa{
+    text-decoration: none;
+    color: black;
+    transition-duration: 500ms;
+}
+.anasayfa a:hover{
+    transition-duration: 500ms;
+    background-color: white;
+    color: lightblue;
+}
+::placeholder{
+    color: lightblue;
+    font-style: italic;
+}
+::selection{
+    background-color: lightblue;
+}
+.button:hover{
+    transition-duration: 500ms;
+    background-color: white;
+    color: lightblue;
+}
+
+
+
+footer #kaankayserili{
+    text-align: right;
+    font-size: 14px;
+    border-radius: 1em;
+    background-color: lightblue;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+footer input{
+    text-align: left;
+}
+#kaan{
+    text-decoration: none;
+    color: black;
+}
